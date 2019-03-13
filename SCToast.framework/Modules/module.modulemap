@@ -1,0 +1,11 @@
+framework module SCToast {
+  umbrella header "SCToast.h"
+
+  export *
+  module * { export * }
+}
+
+module SCToast.Swift {
+    header "SCToast-Swift.h"
+    requires objc
+}
